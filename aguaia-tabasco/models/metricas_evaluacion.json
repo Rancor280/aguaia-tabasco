@@ -1,0 +1,33 @@
+{
+  "mejores_hiperparametros_rf": {
+    "reg__max_depth": 8,
+    "reg__min_samples_leaf": 5,
+    "reg__n_estimators": 200
+  },
+  "metricas_prueba": {
+    "Referencia (Promedio)": {
+      "MAE_L_dia": 100.02,
+      "MSE_L2": 15976.3,
+      "RMSE_L_dia": 126.4,
+      "R2": -0.0007
+    },
+    "Regresión Lineal Múltiple": {
+      "MAE_L_dia": 52.64,
+      "MSE_L2": 4379.76,
+      "RMSE_L_dia": 66.18,
+      "R2": 0.7257
+    },
+    "Árbol de Decisión": {
+      "MAE_L_dia": 63.08,
+      "MSE_L2": 6772.96,
+      "RMSE_L_dia": 82.3,
+      "R2": 0.5758
+    },
+    "Random Forest": {
+      "MAE_L_dia": 55.13,
+      "MSE_L2": 5038.55,
+      "RMSE_L_dia": 70.98,
+      "R2": 0.6844
+    }
+  }
+}
